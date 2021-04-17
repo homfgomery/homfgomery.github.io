@@ -12,6 +12,7 @@
 
     <h3>Directory</h3>
     <!--Rachel has changed this to be directory of all the songs-->
+    <!--Mark's Comment: Oh, interesting... you could add anchor tags to the list items to make them link to the different sections on the page. See if you can figure it out!-->
     <ol>
         <li>Earthmover</li>
         <li>Fly Me To The Moon</li>
@@ -23,6 +24,7 @@
         <em><span style="color: brown"> Earthmover</span></em>
     </h1>
     <h2>
+        <!--Mark's Comment: while this works technically, it's bad form to nest textual types of elements into other textual types of elements, so nesting a div tag within a h tag is frowned upon. The h2 tag tells the browser that this line is a heading. Normally a heading doesn't include images and multiple lines of text-->
         Deathconsciousness<br>
         <small>Have a Nice Life</small>
         <div>
@@ -86,6 +88,7 @@
     <h2>
         <span style="color:red">Bayonetta OST</span>
         <!--The game title is highlighted in red-->
+        <!--Mark's Comment: same comment as above in Simon's section... normally you wouldn't have a div element within a h element-->
         <div>
             Singer: <em>Brenda Lee</em>
             <!--This song is a remix of an older song, so there are two credits-->
@@ -129,6 +132,7 @@
         <strong><span style="color:red">Ancient Aliens</span></strong>
     </h1>
     <h2>
+        <!--Mark's Comment: sort of the same as in Simon and Rachel's sections... normally a h element is a single line since it's a single heading that marks off a new section or topic to a page. I think I would separate album name from artist with a different tag, maybe an h3, but when we get to CSS, I think I'd actually use div tags and then classify album and artist types of divs-->
             Spirit Phone<br>
             <small>Lemon Demon</small>
     </h2>
@@ -182,6 +186,7 @@
         <strong><span style="color:blue">Crush</span></strong>
     </h1>
     <h2>
+        <!--Mark's Comment: see my comments in the other sections.-->
         Immersion<br>
         <small>Pendulum</small> <!--Simon added the album-->
     </h2>
@@ -236,6 +241,7 @@
         }
     </style>
     <!--I add this style to table, so the header will match the content-->
+    <!--Mark's Comment: I'm guessing this is not needed since the default alignment for text is left. Also, as you'll see when we get to CSS, usually you want style blocks within the head of the document.-->
     <table style="width:100%">
         <!--Simon| dunno how to format this very nicely, but it's there!-->
         <tr>
